@@ -12,8 +12,14 @@
     &__heading {
         font-size: 150px;
         color: white;
-        backdrop-filter: contrast(.7);
+        background-color: rgba(26, 25, 25, 0.25);
         display: inline;
         border-radius: 50px;
+        margin-top: 20px;
+    }
+    &__boxes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

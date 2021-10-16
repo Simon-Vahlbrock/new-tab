@@ -1,9 +1,11 @@
 import './App.scss';
-import img1 from '../utils/images/1.jpg'
-import img2 from '../utils/images/2.jpg'
-import img3 from '../utils/images/3.jpg'
-import img4 from '../utils/images/4.jpg'
-import img5 from '../utils/images/5.jpg'
+import img1 from '../utils/images/app-background/1.jpg'
+import img2 from '../utils/images/app-background/2.jpg'
+import img3 from '../utils/images/app-background/3.jpg'
+import img4 from '../utils/images/app-background/4.jpg'
+import img5 from '../utils/images/app-background/5.jpg'
+import Search from "./search/Search";
+import Boxes from "./boxes/Boxes";
 
 function App() {
     const rand = (max, min) => Math.floor(Math.random() * (max - min + 1))
@@ -31,7 +33,10 @@ function App() {
                 </div>
             </div>
             <div className='app__flex'>
-                <input/>
+                <Search/>
+            </div>
+            <div className='app__boxes'>
+                <Boxes/>
             </div>
         </div>
     );

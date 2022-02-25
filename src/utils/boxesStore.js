@@ -1,10 +1,10 @@
 import youTubeImg from "./images/box/youtube.png";
 import netflixImg from "./images/box/netflix.png";
 import disneyPlusImg from "./images/box/disney_plus.png";
-import twitchImg from "./images/box/twitch.png";
 import opgg from "./images/box/opgg.png";
+import communication from './images/box/communication.png'
 
-export const boxes = [
+export const PRIVATE_BOXES = [
     {
         name: 'YouTube',
         link: 'https://youtube.com',
@@ -28,21 +28,6 @@ export const boxes = [
         img: disneyPlusImg,
         playlists: []
     },
-    /*{
-        name: 'Twitch',
-        link: 'https://twitch.tv',
-        img: twitchImg,
-        playlists: [
-            {
-                name: 'NoWay4u_Sir',
-                link: 'https://www.twitch.tv/noway4u_sir'
-            },
-            {
-                name: 'Nightblue3',
-                link: 'https://www.twitch.tv/nightblue3'
-            }
-        ]
-    },*/
     {
         name: 'op.gg',
         link: 'https://euw.op.gg/champion/statistics',
@@ -51,6 +36,20 @@ export const boxes = [
             {
                 name: 'Taliyha',
                 link: 'https://euw.op.gg/champion/taliyah/statistics/support/build'
+            }
+        ]
+    }
+]
+
+export const WORK_BOXES = [
+    {
+        name: 'Communication',
+        link: 'https://communication-entertainment.chayns.net/',
+        img: communication,
+        playlists: [
+            {
+                name: 'Development',
+                link: 'https://communication-entertainment.chayns.net/localdev'
             }
         ]
     }

@@ -9,7 +9,7 @@ const App = () => {
         <div className="app" style={{backgroundImage: image()}}>
             <div className='app__flex'>
                 <div className='app__heading'>
-                    <p className='app__heading'>New Tab</p>
+                    New Tab
                 </div>
             </div>
             <div className='app__flex'>

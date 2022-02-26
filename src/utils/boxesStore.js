@@ -86,11 +86,19 @@ export const WORK_BOXES = [
         playlists: [
             {
                 name: 'GitLab',
-                link: ''
+                link: 'https://gitlab.tobit.com'
             },
             {
                 name: 'TeamCity',
-                link: ''
+                link: 'https://teamcity.tobit.ag/favorite/projects?mode=trends'
+            },
+            {
+                name: 'Tagesbericht',
+                link: 'https://labs.tobit.com/hRDashboard'
+            },
+            {
+                name: 'Themenübersicht',
+                link: 'https://labs.tobit.com/themen'
             }
         ],
     },

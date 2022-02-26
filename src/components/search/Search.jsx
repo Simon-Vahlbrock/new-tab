@@ -30,7 +30,7 @@ const Search = () => {
                             value={input}
                             onChange={handleInput}
                             onKeyDown={handleOnKeyDown}
-                            autocomplete="off"
+                            autoComplete="off"
                         />
                     </td>
                     <td>

@@ -16,46 +16,11 @@ import img15 from "./images/app-background/15.jpg";
 
 const rand = (max, min) => Math.floor(Math.random() * (max - min + 1));
 
-export const image = () => {
-    switch (rand(14, 0)) {
-        case 0:
-            return `url(${img1})`
-        case 1:
-            return `url(${img2})`
-        case 2:
-            return `url(${img3})`
-        case 3:
-            return `url(${img4})`
-        case 4:
-            return `url(${img5})`
-        case 5:
-            return `url(${img6})`
-        case 6:
-            return `url(${img7})`
-        case 7:
-            return `url(${img8})`
-        case 8:
-            return `url(${img9})`
-        case 9:
-            return `url(${img10})`
-        case 10:
-            return `url(${img11})`
-        case 11:
-            return `url(${img12})`
-        case 12:
-            return `url(${img13})`
-        case 13:
-            return `url(${img14})`
-        case 14:
-            return `url(${img15})`
-        default:
-            return `url(${img1})`
-    }
-}
+const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15];
 
-export const loadImages = () => {
-    const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15]
+export const image = () => `url(${images[rand(14, 0)]})`
+
+export const loadImages = () =>
     images.forEach(image => {
         new Image().src = image
     })
-}

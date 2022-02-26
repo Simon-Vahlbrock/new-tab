@@ -13,6 +13,7 @@ const Search = () => {
     const handleOnKeyDown = useCallback((e) => {
         if (e.key === 'Enter') {
             window.open(`https://www.google.com/search?q=${input}`, '_blank');
+            setInput('');
         }
     }, [input])
 

@@ -36,7 +36,7 @@ const Box = ({item}) => {
                         exit={{opacity: 0, height: 0}}
                     >
                         {item.playlists.map(playlist => <Playlist key={playlist.name} playlist={playlist}/>)}
-                    </motion.div>
+                    </motion.div >
                 )}
             </AnimatePresence>
         </div>

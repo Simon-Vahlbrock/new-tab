@@ -2,8 +2,10 @@ import youTubeImg from "./images/box/youtube.png";
 import netflixImg from "./images/box/netflix.png";
 import disneyPlusImg from "./images/box/disney_plus.png";
 import opgg from "./images/box/opgg.png";
-import communication from './images/box/communication.png'
-import chayns from './images/box/chayns.png'
+import communication from './images/box/communication.png';
+import chayns from './images/box/chayns.png';
+import gitmoji from './images/box/gitmoji.png';
+import tobit from './images/box/tobit.png'
 
 export const PRIVATE_BOXES = [
     {
@@ -76,5 +78,26 @@ export const WORK_BOXES = [
                 link: 'https://components.chayns.net/storybook'
             }
         ]
+    },
+    {
+        name: 'Tobit',
+        link: '',
+        img: tobit,
+        playlists: [
+            {
+                name: 'GitLab',
+                link: ''
+            },
+            {
+                name: 'TeamCity',
+                link: ''
+            }
+        ],
+    },
+    {
+        name: 'Gitmoji',
+        link: 'https://gitmoji.dev/',
+        img: gitmoji,
+        playlists: []
     }
 ]

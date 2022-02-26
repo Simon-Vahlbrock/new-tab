@@ -13,7 +13,7 @@ const App = () => {
         <div className="app" style={{backgroundImage: image()}}>
             <div className='app__flex'>
                 <div className='app__heading'>
-                    New Tab
+                    <a href="https://youtube.com" className="app__heading__link">New Tab</a>
                 </div>
             </div>
             <div className='app__flex'>
